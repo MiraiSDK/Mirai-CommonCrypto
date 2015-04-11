@@ -1,0 +1,30 @@
+//
+//  Android.xcconfig
+//  UIKit
+//
+//  Created by Chen Yonghui on 12/6/13.
+//  Copyright (c) 2013 Shanghai Tinynetwork Inc. All rights reserved.
+//
+
+SDK_ROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/Android18.sdk
+SDK_LIB_PATH=$(SDK_ROOT)/usr/lib
+
+DEPLOYMENT_LOCATION = YES
+DSTROOT = /
+INSTALL_PATH = $(SDK_ROOT)/System/Library/Frameworks/
+LD_DEPENDENCY_INFO_FILE=
+MACOSX_DEPLOYMENT_TARGET=
+
+//HEADER_SEARCH_PATHS=$(inherited) $(SDK_ROOT)/usr/include
+//FRAMEWORK_SEARCH_PATH＝$(inherited) $(SDK_ROOT)/System/Library/Frameworks
+
+BASE_CFLAGS= -DANDROID=1 -fblocks
+BASE_LDFLAGS= -shared -Wl,-z,defs -lTNJavaHelper -lgnustl_shared -ldispatch -lobjc
+BASE_CPLUSPLUSFLAGS= -DANDROID=1 -fblocks
+
+OTHER_CFLAGS = $(inherited) $(BASE_CFLAGS)
+OTHER_LDFLAGS = $(inherited) $(BASE_LDFLAGS)
+OTHER_CPLUSPLUSFLAGS= $(inherited) $(BASE_CPLUSPLUSFLAGS)
+
+
+

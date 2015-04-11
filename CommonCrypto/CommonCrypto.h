@@ -6,14 +6,15 @@
 //  Copyright (c) 2015 Shanghai TinyNetwork Inc. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#ifndef __COMMONCRYPTO_PUBLIC__
+#define __COMMONCRYPTO_PUBLIC__
 
-//! Project version number for CommonCrypto.
-FOUNDATION_EXPORT double CommonCryptoVersionNumber;
+#include <CommonCrypto/CommonCryptor.h>
+#include <CommonCrypto/CommonDigest.h>
+#include <CommonCrypto/CommonHMAC.h>
+#include <CommonCrypto/CommonKeyDerivation.h>
+#include <CommonCrypto/CommonSymmetricKeywrap.h>
 
-//! Project version string for CommonCrypto.
-FOUNDATION_EXPORT const unsigned char CommonCryptoVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <CommonCrypto/PublicHeader.h>
+#endif /* __COMMONCRYPTO_PUBLIC__ */
 
 

@@ -8,27 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		43D63C6F1AD7AC2300A46D35 /* CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C6E1AD7AC2300A46D35 /* CommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43D63C751AD7AC2300A46D35 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D63C691AD7AC2300A46D35 /* CommonCrypto.framework */; };
-		43D63C7C1AD7AC2300A46D35 /* CommonCryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C7B1AD7AC2300A46D35 /* CommonCryptoTests.m */; };
+		43D63C8C1AD7ACAF00A46D35 /* CommonCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C8A1AD7ACAF00A46D35 /* CommonCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C8D1AD7ACAF00A46D35 /* CommonCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C8B1AD7ACAF00A46D35 /* CommonCryptor.m */; };
+		43D63C901AD7ACB800A46D35 /* CommonDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C8E1AD7ACB800A46D35 /* CommonDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C911AD7ACB800A46D35 /* CommonDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C8F1AD7ACB800A46D35 /* CommonDigest.m */; };
+		43D63C941AD7ACC100A46D35 /* CommonHMAC.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C921AD7ACC100A46D35 /* CommonHMAC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C951AD7ACC100A46D35 /* CommonHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C931AD7ACC100A46D35 /* CommonHMAC.m */; };
+		43D63C981AD7ACCA00A46D35 /* CommonKeyDerivation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C961AD7ACCA00A46D35 /* CommonKeyDerivation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C991AD7ACCA00A46D35 /* CommonKeyDerivation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C971AD7ACCA00A46D35 /* CommonKeyDerivation.m */; };
+		43D63C9C1AD7ACD200A46D35 /* CommonSymmetricKeywrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C9A1AD7ACD200A46D35 /* CommonSymmetricKeywrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C9D1AD7ACD200A46D35 /* CommonSymmetricKeywrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C9B1AD7ACD200A46D35 /* CommonSymmetricKeywrap.m */; };
+		43D63CA01AD7AD0500A46D35 /* CommonCryptoError.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C9E1AD7AD0500A46D35 /* CommonCryptoError.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		43D63C761AD7AC2300A46D35 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 43D63C601AD7AC2300A46D35 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 43D63C681AD7AC2300A46D35;
-			remoteInfo = CommonCrypto;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		43D63C691AD7AC2300A46D35 /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D63C6D1AD7AC2300A46D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43D63C6E1AD7AC2300A46D35 /* CommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
-		43D63C741AD7AC2300A46D35 /* CommonCryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonCryptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43D63C7A1AD7AC2300A46D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43D63C7B1AD7AC2300A46D35 /* CommonCryptoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonCryptoTests.m; sourceTree = "<group>"; };
+		43D63C871AD7AC5A00A46D35 /* Android-arm.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Android-arm.xcconfig"; sourceTree = "<group>"; };
+		43D63C881AD7AC5A00A46D35 /* Android-x86.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Android-x86.xcconfig"; sourceTree = "<group>"; };
+		43D63C891AD7AC5A00A46D35 /* Android.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Android.xcconfig; sourceTree = "<group>"; };
+		43D63C8A1AD7ACAF00A46D35 /* CommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptor.h; sourceTree = "<group>"; };
+		43D63C8B1AD7ACAF00A46D35 /* CommonCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCryptor.m; sourceTree = "<group>"; };
+		43D63C8E1AD7ACB800A46D35 /* CommonDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDigest.h; sourceTree = "<group>"; };
+		43D63C8F1AD7ACB800A46D35 /* CommonDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonDigest.m; sourceTree = "<group>"; };
+		43D63C921AD7ACC100A46D35 /* CommonHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHMAC.h; sourceTree = "<group>"; };
+		43D63C931AD7ACC100A46D35 /* CommonHMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHMAC.m; sourceTree = "<group>"; };
+		43D63C961AD7ACCA00A46D35 /* CommonKeyDerivation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonKeyDerivation.h; sourceTree = "<group>"; };
+		43D63C971AD7ACCA00A46D35 /* CommonKeyDerivation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonKeyDerivation.m; sourceTree = "<group>"; };
+		43D63C9A1AD7ACD200A46D35 /* CommonSymmetricKeywrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonSymmetricKeywrap.h; sourceTree = "<group>"; };
+		43D63C9B1AD7ACD200A46D35 /* CommonSymmetricKeywrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonSymmetricKeywrap.m; sourceTree = "<group>"; };
+		43D63C9E1AD7AD0500A46D35 /* CommonCryptoError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptoError.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,22 +49,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43D63C711AD7AC2300A46D35 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43D63C751AD7AC2300A46D35 /* CommonCrypto.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		43D63C5F1AD7AC2300A46D35 = {
 			isa = PBXGroup;
 			children = (
+				43D63C861AD7AC5A00A46D35 /* xcconfig */,
 				43D63C6B1AD7AC2300A46D35 /* CommonCrypto */,
-				43D63C781AD7AC2300A46D35 /* CommonCryptoTests */,
 				43D63C6A1AD7AC2300A46D35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				43D63C691AD7AC2300A46D35 /* CommonCrypto.framework */,
-				43D63C741AD7AC2300A46D35 /* CommonCryptoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +73,17 @@
 			isa = PBXGroup;
 			children = (
 				43D63C6E1AD7AC2300A46D35 /* CommonCrypto.h */,
+				43D63C8A1AD7ACAF00A46D35 /* CommonCryptor.h */,
+				43D63C8B1AD7ACAF00A46D35 /* CommonCryptor.m */,
+				43D63C8E1AD7ACB800A46D35 /* CommonDigest.h */,
+				43D63C8F1AD7ACB800A46D35 /* CommonDigest.m */,
+				43D63C921AD7ACC100A46D35 /* CommonHMAC.h */,
+				43D63C931AD7ACC100A46D35 /* CommonHMAC.m */,
+				43D63C961AD7ACCA00A46D35 /* CommonKeyDerivation.h */,
+				43D63C971AD7ACCA00A46D35 /* CommonKeyDerivation.m */,
+				43D63C9A1AD7ACD200A46D35 /* CommonSymmetricKeywrap.h */,
+				43D63C9B1AD7ACD200A46D35 /* CommonSymmetricKeywrap.m */,
+				43D63C9E1AD7AD0500A46D35 /* CommonCryptoError.h */,
 				43D63C6C1AD7AC2300A46D35 /* Supporting Files */,
 			);
 			path = CommonCrypto;
@@ -85,21 +97,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		43D63C781AD7AC2300A46D35 /* CommonCryptoTests */ = {
+		43D63C861AD7AC5A00A46D35 /* xcconfig */ = {
 			isa = PBXGroup;
 			children = (
-				43D63C7B1AD7AC2300A46D35 /* CommonCryptoTests.m */,
-				43D63C791AD7AC2300A46D35 /* Supporting Files */,
+				43D63C871AD7AC5A00A46D35 /* Android-arm.xcconfig */,
+				43D63C881AD7AC5A00A46D35 /* Android-x86.xcconfig */,
+				43D63C891AD7AC5A00A46D35 /* Android.xcconfig */,
 			);
-			path = CommonCryptoTests;
-			sourceTree = "<group>";
-		};
-		43D63C791AD7AC2300A46D35 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				43D63C7A1AD7AC2300A46D35 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = xcconfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,7 +114,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D63C941AD7ACC100A46D35 /* CommonHMAC.h in Headers */,
 				43D63C6F1AD7AC2300A46D35 /* CommonCrypto.h in Headers */,
+				43D63CA01AD7AD0500A46D35 /* CommonCryptoError.h in Headers */,
+				43D63C981AD7ACCA00A46D35 /* CommonKeyDerivation.h in Headers */,
+				43D63C901AD7ACB800A46D35 /* CommonDigest.h in Headers */,
+				43D63C8C1AD7ACAF00A46D35 /* CommonCryptor.h in Headers */,
+				43D63C9C1AD7ACD200A46D35 /* CommonSymmetricKeywrap.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +135,7 @@
 				43D63C651AD7AC2300A46D35 /* Frameworks */,
 				43D63C661AD7AC2300A46D35 /* Headers */,
 				43D63C671AD7AC2300A46D35 /* Resources */,
+				43D63C851AD7AC3000A46D35 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,24 +145,6 @@
 			productName = CommonCrypto;
 			productReference = 43D63C691AD7AC2300A46D35 /* CommonCrypto.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		43D63C731AD7AC2300A46D35 /* CommonCryptoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43D63C821AD7AC2300A46D35 /* Build configuration list for PBXNativeTarget "CommonCryptoTests" */;
-			buildPhases = (
-				43D63C701AD7AC2300A46D35 /* Sources */,
-				43D63C711AD7AC2300A46D35 /* Frameworks */,
-				43D63C721AD7AC2300A46D35 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43D63C771AD7AC2300A46D35 /* PBXTargetDependency */,
-			);
-			name = CommonCryptoTests;
-			productName = CommonCryptoTests;
-			productReference = 43D63C741AD7AC2300A46D35 /* CommonCryptoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,9 +156,6 @@
 				ORGANIZATIONNAME = "Shanghai TinyNetwork Inc.";
 				TargetAttributes = {
 					43D63C681AD7AC2300A46D35 = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					43D63C731AD7AC2300A46D35 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -182,7 +173,6 @@
 			projectRoot = "";
 			targets = (
 				43D63C681AD7AC2300A46D35 /* CommonCrypto */,
-				43D63C731AD7AC2300A46D35 /* CommonCryptoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -195,40 +185,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43D63C721AD7AC2300A46D35 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43D63C851AD7AC3000A46D35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "pushd \"$SDK_LIB_PATH\"\nln -sf \"$LD_DYLIB_INSTALL_NAME\" \"lib$PRODUCT_NAME.so\"\npopd\n\npushd \"$SDK_ROOT/usr/include\"\nln -sf \"$INSTALL_PATH/$PUBLIC_HEADERS_FOLDER_PATH\" \"$PRODUCT_NAME\"\npopd\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43D63C641AD7AC2300A46D35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43D63C701AD7AC2300A46D35 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43D63C7C1AD7AC2300A46D35 /* CommonCryptoTests.m in Sources */,
+				43D63C911AD7ACB800A46D35 /* CommonDigest.m in Sources */,
+				43D63C8D1AD7ACAF00A46D35 /* CommonCryptor.m in Sources */,
+				43D63C951AD7ACC100A46D35 /* CommonHMAC.m in Sources */,
+				43D63C991AD7ACCA00A46D35 /* CommonKeyDerivation.m in Sources */,
+				43D63C9D1AD7ACD200A46D35 /* CommonSymmetricKeywrap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		43D63C771AD7AC2300A46D35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 43D63C681AD7AC2300A46D35 /* CommonCrypto */;
-			targetProxy = 43D63C761AD7AC2300A46D35 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		43D63C7D1AD7AC2300A46D35 /* Debug */ = {
@@ -268,7 +256,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx0.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -305,7 +293,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx0.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -313,67 +301,35 @@
 		};
 		43D63C801AD7AC2300A46D35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D63C891AD7AC5A00A46D35 /* Android.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = CommonCrypto/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SDKROOT = macosx0.0;
 			};
 			name = Debug;
 		};
 		43D63C811AD7AC2300A46D35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D63C891AD7AC5A00A46D35 /* Android.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = CommonCrypto/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		43D63C831AD7AC2300A46D35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CommonCryptoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		43D63C841AD7AC2300A46D35 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CommonCryptoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx0.0;
 			};
 			name = Release;
 		};
@@ -394,14 +350,6 @@
 			buildConfigurations = (
 				43D63C801AD7AC2300A46D35 /* Debug */,
 				43D63C811AD7AC2300A46D35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		43D63C821AD7AC2300A46D35 /* Build configuration list for PBXNativeTarget "CommonCryptoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				43D63C831AD7AC2300A46D35 /* Debug */,
-				43D63C841AD7AC2300A46D35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
