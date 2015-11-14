@@ -7,3 +7,8 @@
 //
 
 #import "CommonDigest.h"
+
+unsigned char *CC_MD5(const void *data, CC_LONG len, unsigned char *md)
+{
+    return NULL;
+}
