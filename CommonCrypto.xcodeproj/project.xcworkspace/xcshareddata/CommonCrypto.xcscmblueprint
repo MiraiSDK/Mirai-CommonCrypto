@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EBA5B4FA5F06A95AD82DF78FBA9E630B74CC759B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EBA5B4FA5F06A95AD82DF78FBA9E630B74CC759B" : 0,
+    "DAAE31B7A32B48881EE67AA60C950247E82A7ADE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "42BA0477-9533-4C8F-82C4-6CFF921DAE58",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EBA5B4FA5F06A95AD82DF78FBA9E630B74CC759B" : "Mirai-CommonCrypto\/",
+    "DAAE31B7A32B48881EE67AA60C950247E82A7ADE" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CommonCrypto",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CommonCrypto.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MiraiSDK\/MiraiSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DAAE31B7A32B48881EE67AA60C950247E82A7ADE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wishdream\/Mirai-CommonCrypto.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBA5B4FA5F06A95AD82DF78FBA9E630B74CC759B"
+    }
+  ]
+}

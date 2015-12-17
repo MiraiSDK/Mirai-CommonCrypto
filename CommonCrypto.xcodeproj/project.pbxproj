@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281A8E341C22830800164342 /* gdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 281A8E311C22830800164342 /* gdefs.h */; };
+		281A8E351C22830800164342 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 281A8E321C22830800164342 /* sha1.c */; };
+		281A8E361C22830800164342 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 281A8E331C22830800164342 /* sha1.h */; };
+		287201891C1FF68300B53394 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 287201871C1FF68300B53394 /* md5.c */; };
+		2872018A1C1FF68300B53394 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 287201881C1FF68300B53394 /* md5.h */; };
 		43D63C6F1AD7AC2300A46D35 /* CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C6E1AD7AC2300A46D35 /* CommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43D63C8C1AD7ACAF00A46D35 /* CommonCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C8A1AD7ACAF00A46D35 /* CommonCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43D63C8D1AD7ACAF00A46D35 /* CommonCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C8B1AD7ACAF00A46D35 /* CommonCryptor.m */; };
@@ -18,10 +23,15 @@
 		43D63C991AD7ACCA00A46D35 /* CommonKeyDerivation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C971AD7ACCA00A46D35 /* CommonKeyDerivation.m */; };
 		43D63C9C1AD7ACD200A46D35 /* CommonSymmetricKeywrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C9A1AD7ACD200A46D35 /* CommonSymmetricKeywrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43D63C9D1AD7ACD200A46D35 /* CommonSymmetricKeywrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C9B1AD7ACD200A46D35 /* CommonSymmetricKeywrap.m */; };
-		43D63CA01AD7AD0500A46D35 /* CommonCryptoError.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C9E1AD7AD0500A46D35 /* CommonCryptoError.h */; };
+		43D63CA01AD7AD0500A46D35 /* CommonCryptoError.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C9E1AD7AD0500A46D35 /* CommonCryptoError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		281A8E311C22830800164342 /* gdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gdefs.h; path = private/gdefs.h; sourceTree = "<group>"; };
+		281A8E321C22830800164342 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sha1.c; path = private/sha1.c; sourceTree = "<group>"; };
+		281A8E331C22830800164342 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = private/sha1.h; sourceTree = "<group>"; };
+		287201871C1FF68300B53394 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5.c; path = private/md5.c; sourceTree = "<group>"; };
+		287201881C1FF68300B53394 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = md5.h; path = private/md5.h; sourceTree = "<group>"; };
 		43D63C691AD7AC2300A46D35 /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D63C6D1AD7AC2300A46D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43D63C6E1AD7AC2300A46D35 /* CommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
@@ -52,6 +62,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		287201851C1FF63200B53394 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				281A8E311C22830800164342 /* gdefs.h */,
+				281A8E321C22830800164342 /* sha1.c */,
+				281A8E331C22830800164342 /* sha1.h */,
+				287201871C1FF68300B53394 /* md5.c */,
+				287201881C1FF68300B53394 /* md5.h */,
+			);
+			name = private;
+			sourceTree = "<group>";
+		};
 		43D63C5F1AD7AC2300A46D35 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +94,7 @@
 		43D63C6B1AD7AC2300A46D35 /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				287201851C1FF63200B53394 /* private */,
 				43D63C6E1AD7AC2300A46D35 /* CommonCrypto.h */,
 				43D63C8A1AD7ACAF00A46D35 /* CommonCryptor.h */,
 				43D63C8B1AD7ACAF00A46D35 /* CommonCryptor.m */,
@@ -115,7 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				43D63C941AD7ACC100A46D35 /* CommonHMAC.h in Headers */,
+				2872018A1C1FF68300B53394 /* md5.h in Headers */,
 				43D63C6F1AD7AC2300A46D35 /* CommonCrypto.h in Headers */,
+				281A8E341C22830800164342 /* gdefs.h in Headers */,
+				281A8E361C22830800164342 /* sha1.h in Headers */,
 				43D63CA01AD7AD0500A46D35 /* CommonCryptoError.h in Headers */,
 				43D63C981AD7ACCA00A46D35 /* CommonKeyDerivation.h in Headers */,
 				43D63C901AD7ACB800A46D35 /* CommonDigest.h in Headers */,
@@ -208,9 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287201891C1FF68300B53394 /* md5.c in Sources */,
 				43D63C911AD7ACB800A46D35 /* CommonDigest.m in Sources */,
 				43D63C8D1AD7ACAF00A46D35 /* CommonCryptor.m in Sources */,
 				43D63C951AD7ACC100A46D35 /* CommonHMAC.m in Sources */,
+				281A8E351C22830800164342 /* sha1.c in Sources */,
 				43D63C991AD7ACCA00A46D35 /* CommonKeyDerivation.m in Sources */,
 				43D63C9D1AD7ACD200A46D35 /* CommonSymmetricKeywrap.m in Sources */,
 			);
