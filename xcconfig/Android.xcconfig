@@ -14,6 +14,7 @@ DSTROOT = /
 INSTALL_PATH = $(SDK_ROOT)/System/Library/Frameworks/
 LD_DEPENDENCY_INFO_FILE=
 MACOSX_DEPLOYMENT_TARGET=
+DEBUG_INFORMATION_FORMAT = dwarf
 
 //HEADER_SEARCH_PATHS=$(inherited) $(SDK_ROOT)/usr/include
 //FRAMEWORK_SEARCH_PATH＝$(inherited) $(SDK_ROOT)/System/Library/Frameworks
